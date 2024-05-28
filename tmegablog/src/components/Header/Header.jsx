@@ -3,7 +3,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import {Logo} from "../Logo"
 import { useNavigate } from 'react-router-dom'
-import { Container } from '../container/Container'
+import { Container } from '../Container/Container.jsx'
 import {LogoutBtn} from "../Footer/LogoutBtn"
 import { Link } from 'react-router-dom'
 
@@ -39,7 +39,7 @@ function Header() {
   ]
   return (
     <header className='py-3 shadow bg-gray-500'>
-      <Container>
+      <Container >
         <nav className='flex'>
           <div className='mr-4'>
             <Link to='/'>
