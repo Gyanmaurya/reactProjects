@@ -7,8 +7,8 @@
  import RTE from "./RTE";
  import Signup from "./Signup"; 
  import Container from "./Container/Container";
-import PostCard from "./PostCard";
+
  import PostForm from "./post-form/PostForm";
 
- export {Login, Logo, Button, Input, PostCard, PostCard, Select, RTE, Signup,PostForm, Container}
+ export {Login, Logo, Button, Input, PostCard, Select, RTE, Signup,PostForm, Container}
 

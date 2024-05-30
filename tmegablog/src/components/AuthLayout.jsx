@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 function AuthLayout({children, authentication=true}) {
 
-     const authStatus = useSelector((state)=> state.auth.status );
+     const authStatus = useSelector((state)=> state.AuthSlice.status );
      const navigate =useNavigate();
 
      const [loder, setLoder] = useState(true);

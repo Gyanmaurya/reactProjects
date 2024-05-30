@@ -1,14 +1,15 @@
 import React from 'react'
 
 import { useSelector } from 'react-redux'
-import {Logo} from "../Logo"
+
 import { useNavigate } from 'react-router-dom'
-import { Container } from '../Container/Container.jsx'
-import {LogoutBtn} from "../Footer/LogoutBtn"
+import { Container,Logo } from '../Index'
+import LogoutBtn from "../Footer/LogoutBtn"
 import { Link } from 'react-router-dom'
 
 function Header() {
-  const authStatus= useSelector((state)=> state.auth.status )
+  const authStatus= useSelector((state)=> state.AuthSlice.status)
+  // console.log(authStatus)
   const navigate = useNavigate()
   const navItems = [
     {
