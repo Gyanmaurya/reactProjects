@@ -8,18 +8,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import AuthLayout from './components/AuthLayout.jsx'
 import Login from './components/Login.jsx';
-
-
-
-
 import AddPost from "./pages/AddPost.jsx";
 import Signup from './pages/Signup'
 import EditPost from "./pages/EditPost";
-
 import Post from "./pages/Post";
-
 import AllPosts from "./pages/AllPosts.jsx";
-
 const router = createBrowserRouter([
   {
     path: "/",
