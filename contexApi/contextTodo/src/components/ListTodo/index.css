@@ -1,0 +1,23 @@
+.ListContainer{
+     display: flex;
+}
+.ListContainer div{
+     padding-left: 20px;
+}
+
+.deleteTodo{
+     color: red;
+}
+
+.deleteTodo :hover{
+     color: grey
+}
+
+.editTodo{
+     color: gray;
+}
+
+.editTodo :hover{
+     background-color: red;
+     border: 1px solid green;
+}
